@@ -1,0 +1,9 @@
+设备（文件）使用步骤：
+1、按照《ZQWL-USBCANFD规格书》的第3章介绍的方法，安装设备驱动。
+2、使用上位机“ZQWL-USB-CANFD-Tool”或“ZCANPRO”收发CAN报文，注意这2个上位机不能同时使用；
+   如果使用“ZQWL-USB-CANFD-Tool”，请参考文件《ZQWL-USB-CANFD-Tool 使用手册》；
+   如果使用“ZCANPRO”,请参考文件《ZQWL-USBCANFD兼容ZCANPRO软件使用说明》，该文件在“ZCANPRO上位机”压缩包中。
+3、提供2种二次开发方式：
+   第1种是基于库函数的方式，使用方法参考《基于周立功模拟开发动态资源库(DLL)接口函数库（二次开发库）使用手册》；
+   第2种方式是基于提供的通信协议，参考文档《ZQWL-USBCANFD二次开发通讯协议》；
+   建议采用第2种方式。
